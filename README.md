@@ -28,7 +28,7 @@ issue #17][vcam#17].
 
 [run-v4l2loopback]: https://github.com/umlaeute/v4l2loopback#run
 
-## Build
+## Build requirments
 
 - Install QT
 
@@ -42,7 +42,7 @@ sudo apt install qtbase5-dev
 git clone --recursive https://github.com/obsproject/obs-studio.git
 ```
 
-- Build plugins
+- Build plugins this step requires source to be built.
 
 ```
 git clone https://github.com/CatxFish/obs-v4l2sink.git
